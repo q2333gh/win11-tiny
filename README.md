@@ -33,7 +33,20 @@ win11_tiny_release.7z.003
 Copy and run this in PowerShell to download the full archive set for this release:
 
 ```powershell
-$d="$HOME\Downloads\win11-tiny-v2026-03-15";mkdir -Force $d | Out-Null; iwr https://github.com/q2333gh/win11-tiny/releases/download/v2026-03-15/win11_tiny_release.7z.001 -OutFile "$d\win11_tiny_release.7z.001"; iwr https://github.com/q2333gh/win11-tiny/releases/download/v2026-03-15/win11_tiny_release.7z.002 -OutFile "$d\win11_tiny_release.7z.002"; iwr https://github.com/q2333gh/win11-tiny/releases/download/v2026-03-15/win11_tiny_release.7z.003 -OutFile "$d\win11_tiny_release.7z.003"
+$d = "$HOME\Downloads\win11-tiny-v2026-03-15"
+mkdir -Force $d | Out-Null
+
+iwr `
+  https://github.com/q2333gh/win11-tiny/releases/download/v2026-03-15/win11_tiny_release.7z.001 `
+  -OutFile "$d\win11_tiny_release.7z.001"
+
+iwr `
+  https://github.com/q2333gh/win11-tiny/releases/download/v2026-03-15/win11_tiny_release.7z.002 `
+  -OutFile "$d\win11_tiny_release.7z.002"
+
+iwr `
+  https://github.com/q2333gh/win11-tiny/releases/download/v2026-03-15/win11_tiny_release.7z.003 `
+  -OutFile "$d\win11_tiny_release.7z.003"
 ```
 
 After download, extract from `.001` with 7-Zip:
