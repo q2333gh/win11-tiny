@@ -1,6 +1,6 @@
 # win11-tiny
 
-Release assets for the tiny Windows 11 VM archive.
+Release assets for the tiny Windows 11 VM archive, base on https://github.com/ntdevlabs/tiny11builder
 
 ## Base Image
 
