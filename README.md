@@ -4,10 +4,10 @@ Release assets for the tiny Windows 11 VM archive, base on https://github.com/nt
 
 ## Base Image
 
-Current base image: VMware ready-to-go version:
+VMware ready-to-go version:
 https://archive.org/details/windows-11-tiny-vmware-image
 
-i made a newer version of image base on above image:
+i made a newer version of image base on above image to current repo release page :
 https://github.com/q2333gh/win11-tiny
 
 ```text
