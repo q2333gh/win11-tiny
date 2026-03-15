@@ -2,7 +2,9 @@
 
 Release assets for the tiny Windows 11 VM archive.
 
-current base image: vmware ready-to-go version:
+## Base Image
+
+Current base image: VMware ready-to-go version:
 https://archive.org/details/windows-11-tiny-vmware-image
 
 i made a newer version of image base on above image:
@@ -48,6 +50,8 @@ iwr `
   https://github.com/q2333gh/win11-tiny/releases/download/v2026-03-15/win11_tiny_release.7z.003 `
   -OutFile "$d\win11_tiny_release.7z.003"
 ```
+
+## Extract
 
 After download, extract from `.001` with 7-Zip:
 
